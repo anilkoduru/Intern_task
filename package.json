@@ -9,6 +9,7 @@
     "start": "nodemon ./index.js",
     "start:dev": "nodemon ./dev-build/main.js",
     "start:prod": "nodemon ./prod-build/main.js",
+    "start:multi": "nodemon ./cluster.js",
     "build:prod": "webpack --config webpack.prod.js --mode production",
     "build:dev": "webpack --config webpack.dev.js --mode development"
   },
