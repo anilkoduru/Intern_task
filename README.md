@@ -21,6 +21,7 @@ Step -4 : Use any of the following commands to run the app<br/>
 - <code>npm run build:prod</code> - To create the production build using weback as bundler<br/>
 - <code>npm run start:dev</code> - To run the development build of the application which is complied by using <code>npm run build:dev</code><br/>
 - <code>npm run start:prod</code> - To run the product build of the application which is complied by using <code>npm run build:prod</code><br/>
+- <code>npm run start:multi</code> - To run the cluster.js file which will initiate the multiple workers listening to different ports. This will help to reduce the load of the system by sending the requests to the worker processes.
 
 After running this, go to postman which helps to build and use api. So you can test the CRUD operation in the postman.
 
