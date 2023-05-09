@@ -15,7 +15,7 @@ step -4 : create <code>.env</code> file and add following Key value pairs
   - <code>PORT</code> = "The port on which you want to run the api"</p>
   - <code>PASSWORD</code> = "Password to mongoose cluster"</p>
  
-Step -4 : Use any of the following commands to run the app<br/>
+Step -5 : Use any of the following commands to run the app<br/>
 - <code>npm start</code> - To run the application normally  <br/>
 - <code>npm run build:dev</code> - To create the development build using weback as bundler<br/>
 - <code>npm run build:prod</code> - To create the production build using weback as bundler<br/>
